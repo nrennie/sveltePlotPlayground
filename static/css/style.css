@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', Times New Roman, serif;
+    font-weight: bold;
+}
+
+* {
+    font-family: 'Commissioner', Arial, sans-serif;
+}
+
+a {
+    color: #508080;
+}
+
+a:hover {
+    color: #E30B5C;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #F0F5F5;
+    color: #2F4F4F;
+}
+
+main {
+    padding-bottom: 40px !important;
+}
+
+.pageTitle {
+    padding-top: 20px
+}
+
+.plot-header {
+    text-align: left;
+}
+
+.plot-header h3 {
+    font-family: 'Commissioner', Arial, sans-serif;
+    font-size: large;
+    padding-bottom: 20px !important;
+}
+
+.plot-footer div {
+    font-family: 'Commissioner', Arial, sans-serif;
+    text-align: left !important;
+}
+
+.pageSubtitle {
+    padding-bottom: 5px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.center {
+    text-align: center;
+}
+
+.page-wrap {
+    min-height: 100%;
+    margin-bottom: -50px; 
+}
+
+.page-wrap:after {
+    content: "";
+    display: block;
+}
+
+.site-footer, .page-wrap:after {
+    height: 40px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div.resize {
+    max-width: 1000px;
+    margin: auto;
+}
