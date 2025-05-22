@@ -35,8 +35,26 @@ main {
     padding-top: 20px
 }
 
+.left {
+    text-align: left;
+}
+
+.axis-x-title text {
+    padding-top: 10px !important;
+}
+
+.axis-x {
+    padding-bottom: 10px !important;
+}
+
 .plot-header {
     text-align: left;
+}
+
+.plot-header h2 {
+    font-family: 'Commissioner', Arial, sans-serif;
+    font-weight: bold;
+    font-size: x-large;
 }
 
 .plot-header h3 {
